@@ -1,0 +1,15 @@
+@import "variables";
+
+.section-header-paragraph {
+  color: $first-text-color;
+  font: 400 14px/30px $second-font;
+  opacity: 0.8;
+
+  &:after {
+    height: 2px;
+    width: 100px;
+    margin: 0 auto;
+    content: "";
+    color: #000;
+  }
+}

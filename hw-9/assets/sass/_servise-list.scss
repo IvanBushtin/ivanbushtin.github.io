@@ -1,0 +1,21 @@
+@import "variables";
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+  .service-list_ellipse {
+    margin: 0 auto;
+  }
+
+  .service-list_section-header {
+    font: 700 16px/36px $primari-font;
+    letter-spacing: -0.4px;
+  }
+
+  .service-list_section-header-paragraph {
+    max-width: 270px;
+  }
+}

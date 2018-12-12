@@ -1,0 +1,13 @@
+@import "variables";
+
+.menu-item {
+  color: $second-text-color;
+  margin: 0 10px;
+  font: 400 14px $primari-font;
+  text-transform: uppercase;
+  letter-spacing: -0.35px;
+
+  &:hover {
+    border-bottom: 1px solid $second-text-color;
+  }
+}

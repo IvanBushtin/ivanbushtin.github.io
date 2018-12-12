@@ -1,0 +1,45 @@
+.map {
+  width: 100%;
+  max-width: 800px;
+  height: 650px;
+  background: url("../img/maps.png") center;
+  background-size: cover;
+  position: relative;
+
+  @media only screen and (max-width: 1599px), only screen and (max-device-width: 1599px) {
+    max-width: 750px;
+  }
+  @media only screen and (max-width: 1499px), only screen and (max-device-width: 1499px) {
+    max-width: 700px;
+  }
+  @media only screen and (max-width: 1399px), only screen and (max-device-width: 1399px) {
+    max-width: 650px;
+  }
+  @media only screen and (max-width: 1299px), only screen and (max-device-width: 1299px) {
+    max-width: 600px;
+  }
+  @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+    max-width: 550px;
+  }
+  @media only screen and (max-width: 1099px), only screen and (max-device-width: 1099px) {
+    max-width: 500px;
+  }
+  @media only screen and (max-width: 999px), only screen and (max-device-width: 999px) {
+    max-width: 450px;
+  }
+  @media only screen and (max-width: 899px), only screen and (max-device-width: 899px) {
+    max-width: 400px;
+  }
+  @media only screen and (max-width: 799px), only screen and (max-device-width: 799px) {
+    max-width: 350px;
+  }
+
+  .marker {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}

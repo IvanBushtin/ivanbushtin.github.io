@@ -1,0 +1,20 @@
+.clients {
+  padding: 40px 0;
+  background-color: #f5f5f5;
+
+  .clients_flex-list {
+    justify-content: space-around;
+    align-items: baseline;
+
+    li {
+      margin: 10px;
+      @media only screen and (max-width: 460px), only screen and (max-device-width: 460px) {
+        margin-right: 40px;
+      }
+    }
+
+    .clients_flex-list_item {
+      align-self: center;
+    }
+  }
+}

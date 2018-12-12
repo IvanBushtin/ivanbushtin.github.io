@@ -1,0 +1,19 @@
+@import "variables";
+
+.button {
+  width: 125px;
+  height: 45px;
+  border: 1px solid $second-text-color;
+  border-radius: 30px;
+  color: $second-text-color;
+  font: 700 13px/36px $primari-font;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #00ffff;
+    color: #00ffff;
+    transition: .5s ease;
+  }
+}

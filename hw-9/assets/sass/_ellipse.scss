@@ -1,0 +1,15 @@
+.ellipse {
+  width: 120px;
+  height: 120px;
+  background: url("../img/Ellipse_bg.png") no-repeat center;
+  position: relative;
+
+  img {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+}

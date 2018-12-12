@@ -1,0 +1,23 @@
+@import "variables";
+
+.footer {
+  padding: 50px 0;
+
+  .footer_flex-list {
+    justify-content: space-between;
+    align-items: end;
+    flex-wrap: nowrap;
+  }
+
+  .footer_flex-list-2 {
+    align-items: baseline;
+  }
+
+  .footer_section-header-paragraph {
+    margin: 0 30px;
+  }
+
+  .footer_social-list {
+    flex-wrap: nowrap;
+  }
+}

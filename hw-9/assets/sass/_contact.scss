@@ -1,0 +1,51 @@
+@import "variables";
+
+.contact {
+  .contact_container {
+    max-width: 1600px;
+  }
+
+  .form-label {
+    color: $second-text-color;
+  }
+
+  .contact_form-input {
+    margin-left: 40px;
+    @media only screen and (max-width: 899px), only screen and (max-device-width: 899px) {
+      margin-left: 5px;
+    }
+  }
+
+  .contact_form_label_message {
+    display: inline-flex;
+    align-items: baseline;
+    margin-right: 8px;
+  }
+
+  .contact_button {
+    margin: 10px 0 0 280px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: $second-text-color;
+    opacity: 0.3;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    @media only screen and (max-width: 899px), only screen and (max-device-width: 899px) {
+      margin-left: 220px;
+    }
+    @media only screen and (max-width: 799px), only screen and (max-device-width: 799px) {
+      margin-left: 190px;
+    }
+    @media only screen and (max-width: 340px), only screen and (max-device-width: 340px) {
+      margin-left: 140px;
+    }
+
+    &:hover {
+      border: 1px solid $second-text-color;
+      opacity: 0.7;
+    }
+  }
+}

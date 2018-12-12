@@ -1,0 +1,21 @@
+@import "variables";
+
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  .team-list-item {
+    background-color: rgba(242, 242, 242, 0.6);
+    margin: 10px;
+
+    .team-list-item_photo-name {
+      margin-top: 30px;
+    }
+
+    .team-list-item_section-span {
+      margin: 10px 0 20px;
+    }
+  }
+}

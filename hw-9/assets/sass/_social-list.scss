@@ -1,0 +1,25 @@
+@import "variables";
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  .social-list-icons {
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 10px;
+
+    &:hover {
+      transition: .5s ease;
+      background-color: aqua;
+    }
+
+    i {
+      color: $second-text-color;
+    }
+  }
+}
