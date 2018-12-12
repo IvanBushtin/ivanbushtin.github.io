@@ -1,0 +1,540 @@
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold';
+  src: url("../fonts/BrandonGrotesque-Bold.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url("../fonts/BrandonGrotesque-Light.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url("../fonts/BrandonGrotesque-Regular.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.header {
+  display: flex;
+  position: absolute;
+  max-width: 940px;
+  max-height: 300px;
+  width: 100%;
+  box-sizing: border-box;
+  left: 50%;
+  margin-left: -470px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px; }
+
+.burger {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+  margin: 10px 20px 0 0;
+  cursor: pointer; }
+  .burger div {
+    height: 5px;
+    margin-bottom: 5px;
+    background-color: #fff; }
+
+.nav {
+  position: absolute;
+  right: 0;
+  top: 60px; }
+  .nav li {
+    display: inline-block;
+    margin-right: 30px; }
+    .nav li a {
+      color: #fff;
+      font: 500 18px "Brandon Grotesque", sans-serif; }
+      .nav li a:hover {
+        border-bottom: 2px solid #fff; }
+
+@media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+  .nav {
+    display: none; }
+  .burger {
+    display: block; } }
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+footer {
+  text-align: center;
+  background-color: #7690c5;
+  padding-bottom: 30px; }
+  footer .footer_border {
+    border-top: 1px solid #87a0d2; }
+  footer p {
+    margin-top: 30px;
+    color: #fff;
+    font: 500 16px "Brandon Grotesque", sans-serif;
+    letter-spacing: -0.4px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      footer p {
+        font-size: 30px; } }
+
+@font-face {
+  font-family: 'Brandon Grotesque Bold';
+  src: url("../fonts/BrandonGrotesque-Bold.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url("../fonts/BrandonGrotesque-Light.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Brandon Grotesque Regular';
+  src: url("../fonts/BrandonGrotesque-Regular.woff2") format("woff2");
+  src: url("../fonts/BrandonGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.we_can {
+  padding: 180px 0 125px;
+  background-image: url("../img/we.png");
+  background-size: cover;
+  text-align: center; }
+  .we_can h3 {
+    margin: 0;
+    color: #fff;
+    font: 300 32px "Brandon Grotesque Light", sans-serif;
+    letter-spacing: -0.8px; }
+  .we_can h1 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    color: #fff;
+    font: 700 66px "Brandon Grotesque", sans-serif;
+    letter-spacing: -1.65px; }
+  .we_can button {
+    width: 240px;
+    height: 65px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font: 700 23px "Brandon Grotesque", sans-serif; }
+    .we_can button:hover {
+      border: 2px solid #000; }
+
+.cart_list {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .cart_list div {
+    max-width: 550px; }
+  .cart_list h2 {
+    margin: 0;
+    color: #222;
+    font: 700 60px "Brandon Grotesque Bold", sans-serif; }
+  .cart_list p {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #777;
+    font: 400 18px "Brandon Grotesque", sans-serif;
+    letter-spacing: -0.45px; }
+  @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+    .cart_list h2 {
+      font-size: 80px; }
+    .cart_list p {
+      font-size: 30px;
+      margin: 30px auto 0; } }
+  .cart_list span {
+    font-weight: 300;
+    font-family: "Brandon Grotesque Light", sans-serif;
+    letter-spacing: -1.5px; }
+
+.web_develop {
+  padding: 100px 0; }
+  .web_develop img {
+    margin-left: 75px; }
+    @media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+      .web_develop img {
+        margin: 0; } }
+
+.identity {
+  padding: 100px 0;
+  background-color: #fafafa; }
+  .identity img {
+    margin-right: 60px; }
+    @media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+      .identity img {
+        margin: 0; } }
+
+@media only screen and (max-width: 980px), only screen and (max-device-width: 980px) {
+  .web_develop {
+    padding: 20px 0; }
+  .identity {
+    padding: 30px 0; }
+  .cart_list {
+    flex-wrap: wrap;
+    text-align: center; }
+    .cart_list .web1 {
+      order: 13; }
+    .cart_list div {
+      width: 100%;
+      margin-top: 30px; } }
+
+.services_list {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 100px 0; }
+  @media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+    .services_list {
+      padding: 30px 0; } }
+  .services_list .services_list_items {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    width: 40%;
+    margin: 3%; }
+    @media only screen and (max-width: 720px), only screen and (max-device-width: 720px) {
+      .services_list .services_list_items {
+        width: 50%;
+        margin: 3%; } }
+    @media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+      .services_list .services_list_items {
+        width: 40%;
+        margin: 1%;
+        align-items: center; } }
+    @media only screen and (max-width: 460px), only screen and (max-device-width: 460px) {
+      .services_list .services_list_items {
+        margin: 20px; } }
+    .services_list .services_list_items h4 {
+      margin: 0;
+      color: #222;
+      font: 500 22px "Brandon Grotesque", sans-serif;
+      letter-spacing: -0.55px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .services_list .services_list_items h4 {
+          font-size: 30px; } }
+    .services_list .services_list_items p {
+      margin-top: 10px;
+      margin-bottom: 0;
+      color: #777;
+      font: 400 18px "Brandon Grotesque", sans-serif;
+      letter-spacing: -0.45px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .services_list .services_list_items p {
+          font-size: 20px; } }
+    .services_list .services_list_items img {
+      margin-right: 20px; }
+
+.awesome_clients {
+  padding: 100px 0;
+  background-color: #fafafa;
+  text-align: center; }
+  @media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+    .awesome_clients {
+      padding: 30px 0; } }
+  .awesome_clients h2 {
+    margin: 0;
+    color: #222;
+    font: 700 60px "Brandon Grotesque Bold", sans-serif; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .awesome_clients h2 {
+        font-size: 80px; } }
+    .awesome_clients h2 span {
+      font: 300 60px "Brandon Grotesque Light", sans-serif;
+      letter-spacing: -1.5px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .awesome_clients h2 span {
+          font-size: 80px; } }
+  .awesome_clients p {
+    margin: 20px 0 45px;
+    color: #777;
+    font: 400 22px "Brandon Grotesque", sans-serif;
+    letter-spacing: -0.55px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .awesome_clients p {
+        font-size: 30px; } }
+  .awesome_clients .awesome_list {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    @media only screen and (max-width: 955px), only screen and (max-device-width: 955px) {
+      .awesome_clients .awesome_list {
+        flex-wrap: wrap; } }
+    .awesome_clients .awesome_list .awesome_text {
+      padding: 40px 90px;
+      border: 1px solid #e8e8e8;
+      background-color: #fff;
+      text-align: left; }
+      @media only screen and (max-width: 955px), only screen and (max-device-width: 955px) {
+        .awesome_clients .awesome_list .awesome_text {
+          max-width: 50%; } }
+      @media only screen and (max-width: 930px), only screen and (max-device-width: 930px) {
+        .awesome_clients .awesome_list .awesome_text {
+          order: 13; } }
+      @media only screen and (max-width: 796px), only screen and (max-device-width: 796px) {
+        .awesome_clients .awesome_list .awesome_text {
+          max-width: 70%;
+          padding: 20px 45px; } }
+      @media only screen and (max-width: 380px), only screen and (max-device-width: 380px) {
+        .awesome_clients .awesome_list .awesome_text {
+          padding: 10px 20px; } }
+    .awesome_clients .awesome_list p {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #777;
+      font: 400 26px "Brandon Grotesque", sans-serif;
+      letter-spacing: -0.65px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .awesome_clients .awesome_list p {
+          font-size: 30px; } }
+    .awesome_clients .awesome_list cite {
+      color: #7690c5;
+      font: 400 20px "Brandon Grotesque", sans-serif;
+      letter-spacing: -0.5px; }
+      @media only screen and (max-width: 505px), only screen and (max-device-width: 505px) {
+        .awesome_clients .awesome_list cite {
+          font-size: 14px; } }
+    .awesome_clients .awesome_list img {
+      margin: 0 20px; }
+
+.logo2 {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center; }
+  @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+    .logo2 {
+      padding: 30px 0; } }
+  .logo2 li {
+    margin: 0 30px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .logo2 li {
+        width: 40%;
+        margin: 2%; } }
+
+.amazing_team {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #111; }
+  @media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+    .amazing_team {
+      padding: 30px 0; } }
+  .amazing_team h2 {
+    margin: 0;
+    color: #fff;
+    font: 400 60px "Brandon Grotesque Bold", sans-serif; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .amazing_team h2 {
+        font-size: 80px; } }
+    .amazing_team h2 span {
+      font: 300 60px "Brandon Grotesque Light", sans-serif;
+      letter-spacing: -1.5px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .amazing_team h2 span {
+          font-size: 80px; } }
+  .amazing_team .amazing_p1 {
+    margin: 5px 0;
+    color: #777;
+    font: 400 22px "Brandon Grotesque", sans-serif;
+    letter-spacing: -0.55px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .amazing_team .amazing_p1 {
+        font-size: 30px; } }
+  .amazing_team .amazing_p2 {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #fff;
+    font: 400 28px "Brandon Grotesque Light", sans-serif;
+    letter-spacing: -0.5px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .amazing_team .amazing_p2 {
+        font-size: 30px; } }
+  .amazing_team .social_list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px 0 50px; }
+    .amazing_team .social_list li {
+      margin: 30px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .amazing_team .social_list li {
+          width: 40%; } }
+    .amazing_team .social_list h6 {
+      margin: 20px 0 10px;
+      color: #fff;
+      font: 700 18px "Brandon Grotesque Bold", sans-serif;
+      letter-spacing: -0.45px; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .amazing_team .social_list h6 {
+          font-size: 40px; } }
+      .amazing_team .social_list h6 span {
+        display: block;
+        color: #777;
+        font: 400 18px "Brandon Grotesque Light", sans-serif;
+        letter-spacing: -0.4px; }
+        @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+          .amazing_team .social_list h6 span {
+            font-size: 30px; } }
+    .amazing_team .social_list .social_icons {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+      padding-top: 12px;
+      background-image: url("../img/social_background.png");
+      background-repeat: no-repeat;
+      color: #fff; }
+    .amazing_team .social_list .facebook:hover {
+      background-image: url("../img/Facebook_Background.png"); }
+    .amazing_team .social_list .twitter:hover {
+      background-image: url("../img/Twitter_Background.png"); }
+    .amazing_team .social_list .pinterest:hover {
+      background-image: url("../img/Pinterest_Background.png"); }
+    .amazing_team .social_list .google:hover {
+      background-image: url("../img/Google+_Background.png"); }
+
+.contact {
+  padding: 100px 0;
+  background-color: #7690c5; }
+  @media only screen and (max-width: 580px), only screen and (max-device-width: 580px) {
+    .contact {
+      padding: 30px 0; } }
+  .contact .contact_list {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .contact .contact_list {
+        flex-wrap: wrap; } }
+
+.say_hello {
+  width: 50%; }
+  @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+    .say_hello {
+      width: 80%;
+      margin: 20px auto;
+      text-align: center; } }
+  .say_hello h2 {
+    margin: 0;
+    color: #fff;
+    font: 700 60px "Brandon Grotesque Bold", sans-serif;
+    letter-spacing: -1.5px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .say_hello h2 {
+        font-size: 100px; } }
+    .say_hello h2 span {
+      font: 300 60px "Brandon Grotesque Light", sans-serif; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .say_hello h2 span {
+          font-size: 100px; } }
+  .say_hello p {
+    max-width: 420px;
+    color: #fff;
+    font: 400 18px "Brandon Grotesque Light", sans-serif;
+    letter-spacing: -0.45px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .say_hello p {
+        max-width: 800px;
+        margin: 20px auto;
+        font-size: 40px; } }
+  .say_hello ul {
+    display: flex;
+    flex-wrap: wrap; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .say_hello ul {
+        justify-content: center; } }
+    .say_hello ul li {
+      width: 40%;
+      margin: 20px 10px 10px 0;
+      display: flex;
+      align-items: center;
+      text-align: center; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .say_hello ul li .phone_number {
+          font-size: 25px; } }
+    .say_hello ul i {
+      width: 50px;
+      color: #fff; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .say_hello ul i {
+          font-size: 4em;
+          margin-right: 40px; } }
+    .say_hello ul span {
+      display: inline-block;
+      color: #fff;
+      font: 400 18px "Brandon Grotesque Light", sans-serif; }
+      @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+        .say_hello ul span {
+          font-size: 30px; } }
+
+.contact_form {
+  width: 50%; }
+  @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+    .contact_form {
+      margin: 20px auto;
+      width: 80%; } }
+  .contact_form .form_input {
+    max-width: 456px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #777;
+    font: 500 18px "Brandon Grotesque", sans-serif;
+    letter-spacing: -0.45px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .contact_form .form_input {
+        max-width: 800px;
+        width: 100%;
+        height: 80px;
+        font-size: 30px; } }
+  .contact_form .text_area {
+    width: 456px;
+    max-width: 480px;
+    min-width: 400px;
+    max-height: 300px;
+    padding-top: 15px;
+    padding-left: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #777;
+    font: 500 18px "Brandon Grotesque", sans-serif;
+    letter-spacing: -0.45px; }
+    @media only screen and (max-width: 576px), only screen and (max-device-width: 576px) {
+      .contact_form .text_area {
+        max-width: 800px;
+        width: 100%;
+        max-height: 300px;
+        font-size: 30px; } }
