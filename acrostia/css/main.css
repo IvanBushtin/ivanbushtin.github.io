@@ -1,0 +1,103 @@
+.logo {
+  color: #d4d4d4 !important;
+  font: 400 50px/60px "Damion", cursive; }
+  .logo:hover {
+    color: #74c7d5 !important; }
+
+.navbar {
+  padding-right: 0; }
+  @media (min-width: 991px) {
+    .navbar {
+      padding-top: 0; } }
+
+.nav {
+  border: none; }
+  @media (max-width: 991px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-end; } }
+
+.nav-item {
+  padding: 20px 15px 5px; }
+  @media (max-width: 991px) {
+    .nav-item {
+      padding: 5px 10px 5px 5px; } }
+  .nav-item:hover {
+    color: #d4d4d4;
+    background-color: #74c7d5;
+    border-radius: 5px; }
+
+.nav-link {
+  padding: 0;
+  color: #d4d4d4;
+  font: 400 18px/60px "Lato", sans-serif; }
+  .nav-link:hover {
+    color: #d4d4d4; }
+
+@media (min-width: 992px) {
+  .menu-container {
+    max-width: 50%; } }
+
+@media (min-width: 1200px) {
+  .menu-container {
+    padding-left: 100px; } }
+
+/*&:hover {
+  padding-top: 40px;
+  background-color: #74c7d5;
+}
+}*/
+.home-page {
+  background: url("../img/waves.png") center/cover no-repeat, #2c3e50 url("../img/hp-bg.png") center/cover no-repeat;
+  max-height: 1000px;
+  min-height: 100vh; }
+
+.carousel-indicators {
+  position: unset;
+  margin-top: 100px;
+  cursor: pointer; }
+  .carousel-indicators .active {
+    background-color: #74c7d5; }
+  .carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    background-color: #d4d4d4; }
+
+.carousel {
+  max-height: 470px;
+  margin-top: 100px; }
+
+.carousel-item {
+  text-align: center; }
+
+.carousel-content-wrapper {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: rgba(255, 255, 255, 0.3); }
+  .carousel-content-wrapper .carousel-content-wrapper_item {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .carousel-content-wrapper h3 {
+    max-width: 370px;
+    color: #74c7d5;
+    font: 300 60px/55px "Lato", sans-serif;
+    text-transform: uppercase;
+    text-align: right; }
+    .carousel-content-wrapper h3 span {
+      text-transform: none; }
+  .carousel-content-wrapper h4 {
+    color: #74c7d5;
+    font: 400 138px/138px "Lato Black", sans-serif;
+    text-transform: uppercase; }
+
+.control-icon-size {
+  height: 40px;
+  width: 40px; }
+  @media (max-width: 1020px) {
+    .control-icon-size {
+      height: 20px;
+      width: 20px; } }
