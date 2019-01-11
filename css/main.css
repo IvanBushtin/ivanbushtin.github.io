@@ -136,6 +136,9 @@ body {
 .carousel-item {
   text-align: center; }
 
+.carousel-control-prev, .carousel-control-next {
+  cursor: pointer; }
+
 .carousel-content-wrapper {
   max-width: 516px;
   width: 100%;
@@ -864,6 +867,8 @@ body {
   padding: 70px 0;
   text-align: center;
   background: url("../img/test-bg.png") center/cover no-repeat; }
+  .testimonial__carousel-content-wrapper {
+    max-width: 800px; }
   .testimonial__carousel-content-wrapper_item {
     margin-bottom: 45px; }
     .testimonial__carousel-content-wrapper_item p {

@@ -33,7 +33,7 @@ function initMap() {
         position: pos,
         map: map,
         title: "Our office",
-        icon: '../img/map-mark.svg'
+        icon: '../img/map-mark.png'
     });
 
     var info = new google.maps.InfoWindow({
