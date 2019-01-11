@@ -5,95 +5,684 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,400italic,700,900' rel='stylesheet'
+          type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
+          type="text/css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
           integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <title>Homework-10</title>
+    <title>Atlantida</title>
 </head>
 <body>
-<div class="home-page">
+<div class="top-menu">
     <header class="header container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent row justify-content-between align-items-lg-center align-items-xs-end">
-            <a href="index.html" class="logo navbar-brand">acrostia</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent row align-items-lg-center">
+            <a href="index.html" class="logo"><img src="img/Logo.png" alt="logo"><span>Atlantida</span></a>
+
+            <button class="navbar-toggler order-10 burger" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse menu-container" id="navbarSupportedContent">
-                <ul class="nav justify-content-end">
+            <div class="collapse navbar-collapse menu-container order-11" id="navbarSupportedContent">
+                <ul class="nav" id="menu">
                     <li class="nav-item">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="content/services.html" class="nav-link">Services</a>
+                        <a href="#about" class="nav-link">about</a>
                     </li>
                     <li class="nav-item">
-                        <a href="content/about.html" class="nav-link">About</a>
+                        <a href="#services" class="nav-link photo">services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="content/work.html" class="nav-link">Work</a>
+                        <a href="#history" class="nav-link">history</a>
                     </li>
                     <li class="nav-item">
-                        <a href="content/contacts.html" class="nav-link">Contacts</a>
+                        <a href="#team" class="nav-link">team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link">portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#prices" class="nav-link">prices</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contact</a>
                     </li>
                 </ul>
             </div>
+            <ul class="social-list order-lg-12">
+                <li class="social-list-item"><i class="fab fa-facebook"></i></li>
+                <li class="social-list-item"><i class="fab fa-twitter"></i></li>
+                <li class="social-list-item"><i class="fab fa-behance"></i></li>
+            </ul>
         </nav>
     </header>
+</div>
+<div class="slider">
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-block carousel-content-wrapper">
+                        <div class="carousel-content-wrapper_item">
+                            <p>Design Studio and Digital Agency</p>
+                            <div class="wave"></div>
+                            <h1>WE ARE ATLANTIDA</h1>
+                            <div class="wave"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block carousel-content-wrapper">
+                        <div class="carousel-content-wrapper_item">
+                            <p>Design Studio and Digital Agency</p>
+                            <div class="wave"></div>
+                            <h1>WE ARE ATLANTIDA</h1>
+                            <div class="wave"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block carousel-content-wrapper">
+                        <div class="carousel-content-wrapper_item">
+                            <p>Design Studio and Digital Agency</p>
+                            <div class="wave"></div>
+                            <h1>WE ARE ATLANTIDA</h1>
+                            <div class="wave"></div>
+                        </div>
+                    </div>
+                </div>
 
-    <div id="carouselExampleIndicators" class="carousel slide container-fluid d-none d-lg-block" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="d-block carousel-content-wrapper">
-                    <div class="carousel-content-wrapper_item">
-                        <h3>good ideas <span>comes</span></h3>
-                        <h4>first!</h4>
-                    </div>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                   data-slide="prev">
+                <span class="carousel-control-prev-icon control-icon-size" aria-hidden="true">
+                    <i class="fas fa-angle-left"></i>
+                </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                   data-slide="next">
+                <span class="carousel-control-next-icon control-icon-size" aria-hidden="true">
+                    <i class="fas fa-angle-right"></i>
+                </span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="carousel-item">
-                <div class="d-block carousel-content-wrapper">
-                    <div class="carousel-content-wrapper_item">
-                        <h3>good ideas <span>comes</span></h3>
-                        <h4>first!</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="d-block carousel-content-wrapper">
-                    <div class="carousel-content-wrapper_item">
-                        <h3>good ideas <span>comes</span></h3>
-                        <h4>first!</h4>
-                    </div>
-                </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon control-icon-size" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon control-icon-size" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+        <button class="button">Get started <img src="img/Arrow.png" alt="arrow" class="Arrow"></button>
     </div>
-    <div class="d-block d-lg-none carousel-content-wrapper main-header">
-        <div class="carousel-content-wrapper_item">
-            <h3>good ideas <span>comes</span></h3>
-            <h4>first!</h4>
+</div>
+<section id="about" class="about container-fluid">
+    <div class="container about__container">
+        <div class="bg-img"></div>
+        <h2 class="section-header about__section-header">About us</h2>
+        <img src="img/wave.png" alt="wave" class="wave-header">
+        <p class="section-paragraph about__section-paragraph ">Donec aliquet, ipsum ut lobortis facilisis, nisi ligula
+            aliquam odio, ut vehicula odio lorem in erat. Quisque
+            quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. Maecenas est
+            enim,
+            sollicitudin sit amet nisi vel, mattis efficitur sapien. Nulla lobortis dui in aliquam placerat. Maecenas
+            commodo odio nec neque imperdiet sagittis. Fusce mauris tellus, vulputate id finibus a, rutrum et justo.
+            Vivamus
+            at eros sed justo laoreet mattis vulputate vel magna. Sed quis pulvinar quam, et tempus purus. Fusce et nisi
+            eget dui hendrerit iaculis. Cras volutpat augue tempor viverra tincidunt. Maecenas interdum scelerisque
+            enim.
+            Aenean interdum leo ac lectus gravida, id tincidunt sem finibus. Curabitur ac arcu blandit, tempus leo id,
+            ultrices ante.
+        </p>
+        <button class="section-button about__section-button">Contact Us</button>
+        <button class="section-button">Portfolio</button>
+    </div>
+    <div class="container">
+        <ul class="stat-list row justify-content-center align-items-center">
+            <li class="stat-list-item col-5 col-sm-3">
+                <i class="fas fa-3x fa-award"></i>
+                <span class="d-block stat-list-item-caption">AWARDS WINNER</span>
+                <span class="d-block stat-list-item-number">54</span>
+            </li>
+            <li class="stat-list-item col-5 col-sm-3">
+                <i class="far fa-3x fa-check-square"></i>
+                <span class="d-block stat-list-item-caption">JOBS DONE</span>
+                <span class="d-block stat-list-item-number">1054</span>
+            </li>
+            <li class="stat-list-item col-5 col-sm-3">
+                <i class="far fa-3x fa-smile-beam"></i>
+                <span class="d-block stat-list-item-caption">HAPPY CLIENTS</span>
+                <span class="d-block stat-list-item-number">120</span>
+            </li>
+            <li class="stat-list-item col-5 col-sm-3">
+                <i class="fas fa-3x fa-briefcase"></i>
+                <span class="d-block stat-list-item-caption">reviews recieved</span>
+                <span class="d-block stat-list-item-number">54</span>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="services" class="services">
+    <div class="container">
+        <h2 class="section-header services__section-header">Services</h2>
+        <img src="img/wave-white.png" alt="wave">
+        <p class="section-paragraph services__section-paragraph">Donec aliquet, ipsum ut lobortis facilisis, nisi ligula
+            aliquam odio, ut vehicula
+            odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit
+            amet sem neque.
+        </p>
+        <ul class="services-list row justify-content-center justify-content-sm-between">
+            <li class="services-list-item col-8 col-md-5 col-lg-3">
+                <div class="services-border1"></div>
+                <i class="far fa-2x fa-lightbulb"></i>
+                <div class="services-border2"></div>
+                <h5>GRAPHIC DESIGN</h5>
+                <p class="section-paragraph services-list-item__section-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor
+                    non aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                    inceptos himenaeos.
+                </p>
+            </li>
+            <li class="services-list-item col-8 col-md-5 col-lg-3">
+                <div class="services-border1"></div>
+                <i class="fas fa-2x fa-desktop"></i>
+                <div class="services-border2"></div>
+                <h5>WEBSITE DESIGN</h5>
+                <p class="section-paragraph services-list-item__section-paragraph">
+                    Nunc non sem vitae neque tristique pellentesque. Donec vitae vehicula mauris. Proin elementum
+                    mauris ut ante tristique rutrum. Quisque tristique, dui iaculis commodo consectetur, libero nibh
+                    tincidunt tortor, in sollicitudin arcu tellus non puruslibero nibh tincidunt tortor,
+                    in sollicitudin arcu
+                </p>
+            </li>
+            <li class="services-list-item col-8 col-md-5 col-lg-3">
+                <div class="services-border1"></div>
+                <i class="fas fa-2x fa-signal"></i>
+                <div class="services-border2"></div>
+                <h5>SEO & ANALITYCS</h5>
+                <p class="section-paragraph services-list-item__section-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos.
+                </p>
+            </li>
+            <li class="services-list-item col-8 col-md-5 col-lg-3">
+                <div class="services-border1"></div>
+                <i class="fab fa-2x fa-wordpress-simple"></i>
+                <div class="services-border2"></div>
+                <h5>WORDPRESS PROGRAMING</h5>
+                <p class="section-paragraph services-list-item__section-paragraph">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos.
+                </p>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="history" class="history">
+    <div class="container">
+        <h2 class="section-header history__section-header">history</h2>
+        <img src="img/wave.png" alt="wave" class="wave-header">
+        <p class="section-paragraph history__section-paragraph">In pulvinar, mi at rhoncus condimentum, turpis nisl
+            scelerisque turpis, ut gravida
+            eros tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci vestibulum sit
+            amet.
+        </p>
+    </div>
+    <section id="conference-timeline">
+        <div class="timeline-start">2015</div>
+        <div class="conference-center-line"></div>
+        <div class="conference-timeline-content">
+            <div class="timeline-article">
+                <div class="content-left-container">
+                    <div class="content-left">
+                        <h6>Donec id lobortis tellus. Maecenas vel dignissim</h6>
+                        <span>07 October 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar,
+                            consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
+                            fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-right-container">
+                    <div class="content-right">
+                        <h6>Nam tincidunt, lacus sit amet ultrices </h6>
+                        <span>05 June 2015</span>
+                        <p>In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros
+                            tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci
+                            vestibulum sit amet. Donec quis faucibus lorem.
+                        </p>
+                    </div>
+                </div>
+                <div class="meta-date"></div>
+                <div class="meta-date"></div>
+            </div>
+            <div class="timeline-article">
+                <div class="content-left-container">
+                    <div class="content-left">
+                        <h6>Donec quis faucibus lorem</h6>
+                        <span>07 May 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar,
+                            consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
+                            fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-right-container container-colored">
+                    <div class="content-right">
+                        <h6>Nunc efficitur laoreet turpis sed auctor.</h6>
+                        <span>02 April 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar,
+                            consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
+                            fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos. Praesent id augue in risus molestie euismod molestie
+                            id augue. Suspendisse a libero porttitor, lobortis eros ac, varius velit. Praesent sed eros
+                            at elit suscipit laoreet vitae condimentum risus.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-center">2014</div>
+                <div class="meta-date"></div>
+                <div class="meta-date"></div>
+            </div>
+            <div class="timeline-article">
+                <div class="content-left-container">
+                    <div class="content-left">
+                        <h6>Donec id lobortis tellus. Maecenas vel dignissim</h6>
+                        <span>07 October 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar,
+                            consequat ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur
+                            fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora torquent per
+                            conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-right-container">
+                    <div class="content-right">
+                        <h6>Nam tincidunt, lacus sit amet ultrices </h6>
+                        <span>05 June 2015</span>
+                        <p>In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros
+                            tortor non arcu. In eget arcu ante. Curabitur lacinia ultricies ante, eget mattis orci
+                            vestibulum sit amet. Donec quis faucibus lorem.
+                        </p>
+                    </div>
+                </div>
+                <div class="meta-date"></div>
+                <div class="meta-date"></div>
+            </div>
+        </div>
+        <div class="timeline-end"><i class="far fa-lightbulb"></i></div>
+    </section>
+</section>
+<section id="team" class="team">
+    <div class="container">
+        <h2 class="section-header">our team</h2>
+        <img src="img/wave.png" alt="wave">
+        <p class="section-paragraph team__section-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum
+            lacus bibendum dolor, sit
+            amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat
+            vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+        </p>
+        <ul class="team-list row justify-content-center">
+            <li class="team-list-item col-12 col-lg-4 col-xl-3">
+                <img src="img/team-1.png" alt="photo">
+                <div class="team-caption">
+                    <h6>John Smith</h6>
+                    <span>Designer</span>
+                    <ul class="social-list">
+                        <li class="social-list-item"><i class="fab fa-facebook"></i></li>
+                        <li class="social-list-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-list-item"><i class="fab fa-behance"></i></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li class="team-list-item col-12 col-lg-4 col-xl-3">
+                <img src="img/Team-2.png" alt="photo">
+                <div class="team-caption">
+                    <h6>Ana Smith</h6>
+                    <span>Designer</span>
+                    <ul class="social-list">
+                        <li class="social-list-item"><i class="fab fa-facebook"></i></li>
+                        <li class="social-list-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-list-item"><i class="fab fa-behance"></i></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="team-list-item col-12 col-lg-4 col-xl-3">
+                <img src="img/Team-3.png" alt="photo">
+                <div class="team-caption">
+                    <h6>Jilia Smith</h6>
+                    <span>Designer</span>
+                    <ul class="social-list">
+                        <li class="social-list-item"><i class="fab fa-facebook"></i></li>
+                        <li class="social-list-item"><i class="fab fa-twitter"></i></li>
+                        <li class="social-list-item"><i class="fab fa-behance"></i></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-header">portfolio</h2>
+        <img src="img/wave.png" alt="wave">
+        <p class="section-paragraph portfolio__section-paragraph">
+            Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna
+            eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus
+            bibendum dolor, sit amet pretium odio magna eget risus.
+        </p>
+        <button class="section-button portfolio__section-button-1">All</button>
+        <button class="section-button portfolio__section-button-2">Website</button>
+        <button class="section-button portfolio__section-button-3">Brochures</button>
+        <button class="section-button portfolio__section-button-4">Logos</button>
+    </div>
+    <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="grid-item grid-item--height2"><img src="img/port-1.png" alt="photo"></div>
+        <div class="grid-item grid-item--height4"><img src="img/port-3.png" alt="photo"></div>
+        <div class="grid-item grid-item--height6"><img src="img/port-5.png" alt="photo"></div>
+        <div class="grid-item grid-item--height8"><img src="img/port-7.png" alt="photo"></div>
+        <div class="grid-item grid-item--height7"><img src="img/port-6.png" alt="photo"></div>
+        <div class="grid-item grid-item--height5"><img src="img/port-4.png" alt="photo"></div>
+        <div class="grid-item grid-item--height3"><img src="img/port-2.png" alt="photo"></div>
+        <div class="grid-item"><img src="img/port-8.png" alt="photo"></div>
+    </div>
+</section>
+<section id="prices" class="prices">
+    <div class="container">
+        <h2 class="section-header">Prices</h2>
+        <img src="img/wave.png" alt="wave">
+        <p class="section-paragraph prices__section-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum
+            lacus bibendum dolor,
+            sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis
+            placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.
+        </p>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="price-list-item col-12 col-md-4 col-lg-3">
+                <h6>Basic</h6>
+                <div class="icon-wrapper">
+                    <img src="img/Icon-1.png" alt="icon">
+                </div>
+                <span>10</span>
+                <p>
+                    Full Access <br>
+                    Unlimited Edition <br>
+                    Full Backup <br>
+                    Free Tea and Free Mockup <br>
+                    Several Prices
+                </p>
+                <button class="section-button">Sign up</button>
+            </div>
+            <div class="price-list-item col-12 col-md-4 col-lg-3">
+                <h6>Advanced</h6>
+                <div class="icon-wrapper">
+                    <img src="img/Icon-2.png" alt="icon">
+                </div>
+                <span>20</span>
+                <p>
+                    Full Access <br>
+                    Unlimited Edition <br>
+                    Full Backup <br>
+                    Free Tea and Free Mockup <br>
+                    Several Prices
+                </p>
+                <button class="section-button">Sign up</button>
+            </div>
+            <div class="price-list-item col-12 col-md-4 col-lg-3">
+                <h6>pro</h6>
+                <div class="icon-wrapper">
+                    <img src="img/Icon-3.png" alt="icon">
+                </div>
+                <span>30</span>
+                <p>
+                    Full Access <br>
+                    Unlimited Edition <br>
+                    Full Backup <br>
+                    Free Tea and Free Mockup <br>
+                    Several Prices
+                </p>
+                <button class="section-button">Sign up</button>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="looking">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-md-2">
+                <img src="img/look-1.png" alt="img">
+            </div>
+            <div class="col-12 col-md-8 align-self-end">
+                <h4>
+                    Looking for a quality and affordable for your next project ?
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu libero ut erat sodales finibus
+                    sed in dolor. Etiam iaculis, nibh a lobortis egestas, est urna sodales
+                </p>
+            </div>
+            <div class="col-12 col-md-2 looking-button">
+                <button class="section-button looking__section-button">Purchase</button>
+            </div>
         </div>
     </div>
 </div>
+<section id="blog" class="blog">
+    <div class="container">
+        <h2 class="section-header">Blog</h2>
+        <img src="img/wave.png" alt="wave">
+        <p class="section-paragraph blog__section-paragraph">Nullam lobortis, turpis lobortis placerat vehicula, ipsum
+            lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam
+            lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget
+            risus.
+        </p>
+    </div>
+    <div class="container-fluid blog__container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-6 col-lg-3 p-0 blog-image">
+                <img src="img/blog-1.png" alt="photo">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 blog-text">
+                <span>14 Aug 2015 / By Admin</span>
+                <h6>Donec id lobortis tellus Maecenas.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-0 blog-image">
+                <img src="img/blog-2.png" alt="photo">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 blog-text">
+                <span>14 Aug 2015 / By Admin</span>
+                <h6>Donec id lobortis tellus Maecenas.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 blog-text">
+                <span>14 Aug 2015 / By Admin</span>
+                <h6>Donec id lobortis tellus Maecenas.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-0 blog-image">
+                <img src="img/blog-3.png" alt="photo">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 blog-text">
+                <span>14 Aug 2015 / By Admin</span>
+                <h6>Donec id lobortis tellus Maecenas.</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos. Curabitur fringilla tortor non aliquam congue. Class aptent taciti sociosqu ad litora
+                    torquent per conubia nostra, per inceptos himenaeos.
+                </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 p-0 blog-image">
+                <img src="img/blog-4.png" alt="photo">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="clients">
+    <div class="container">
+        <h2 class="section-header">clients</h2>
+        <img src="img/wave.png" alt="wave">
+        <p class="section-paragraph clients__section-paragraph">Nullam lobortis, turpis lobortis placerat vehicula,
+            ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. Phasellus iaculis ultricies duiNullam
+            lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget
+            risus.
+        </p>
+        <ul class="row justify-content-between align-items-center">
+            <li class="col-6 col-md-2">
+                <img src="img/client-1.png" alt="client">
+            </li>
+            <li class="col-6 col-md-2">
+                <img src="img/client-2.png" alt="client">
+            </li>
+            <li class="col-6 col-md-2">
+                <img src="img/client-3.png" alt="client">
+            </li>
+            <li class="col-6 col-md-2">
+                <img src="img/client-4.png" alt="client">
+            </li>
+            <li class="col-12 col-md-2">
+                <img src="img/client-5.png" alt="client">
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="testimonial">
+    <div class="container">
+        <div id="carouselExampleIndicators-2" class="carousel slide container" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-block carousel-content-wrapper">
+                        <div class="testimonial__carousel-content-wrapper_item">
+                            <img src="img/test-slider-photo.png" alt="photo">
+                            <p><span class="quote-left">&#8220;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Curabitur eu libero ut erat sodales finibus sed in dolor. Etiam iaculis, nibh
+                                a lobortis egestas, est urna sodales<span class="quote-right">&#8222;</span>
+                            </p>
+                            <h6>ALEXANDR PODVALNY</h6>
+                            <span>Free-PSD-Template.com Company</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block carousel-content-wrapper">
+                        <div class="testimonial__carousel-content-wrapper_item">
+                            <img src="img/test-slider-photo.png" alt="photo">
+                            <p><span class="quote-left">&#8220;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Curabitur eu libero ut erat sodales finibus sed in dolor. Etiam iaculis, nibh
+                                a lobortis egestas, est urna sodales<span class="quote-right">&#8222;</span>
+                            </p>
+                            <h6>ALEXANDR PODVALNY</h6>
+                            <span>Free-PSD-Template.com Company</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block carousel-content-wrapper">
+                        <div class="testimonial__carousel-content-wrapper_item">
+                            <img src="img/test-slider-photo.png" alt="photo">
+                            <p><span class="quote-left">&#8220;</span>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit. Curabitur eu libero ut erat sodales finibus sed in dolor. Etiam iaculis, nibh
+                                a lobortis egestas, est urna sodales<span class="quote-right">&#8222;</span>
+                            </p>
+                            <h6>ALEXANDR PODVALNY</h6>
+                            <span>Free-PSD-Template.com Company</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators-2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators-2" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>
+</section>
+<div id="Map" class="myMap"></div>
+<footer id="contact" class="footer">
+    <div class="container">
+        <a href="index.html" class="logo"><img src="img/Logo.png" alt="logo"><span>Atlantida</span></a>
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed ipsum pulvinar, consequat
+                    ipsum non, sodales augue. Donec dapibus ipsum rutrum congue egestas. Curabitur fringilla tortor non
+                    aliquam congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+                </p>
+                <h6>ATLANTIDA STUDIO</h6>
+                <p>Steven Bernson, Attorney at Law <br>
+                    1556 Broadway, suite 416 <br>
+                    New York, NY, 10120, USA
+                </p>
+                <span class="footer-span">
+                    E-mail: <span>elegantflyers@gmail.com</span><br>
+                    <span>+84 956 654 972</span>
+                </span>
+                <ul class="social-list">
+                    <li class="social-list-item"><i class="fab fa-facebook"></i></li>
+                    <li class="social-list-item"><i class="fab fa-twitter"></i></li>
+                    <li class="social-list-item"><i class="fab fa-behance"></i></li>
+                </ul>
+            </div>
+            <div class="col-lg-8">
+                <form action="post" class="row">
+                    <label for="name" class="col-12 col-md-6">
+                        <input type="text" id="name" class="form-input" placeholder="Name*" required>
+                    </label>
+                    <label for="email" class="col-12 col-md-6">
+                        <input type="email" id="email" class="form-input" placeholder="E-mail*" required>
+                    </label>
+                    <label for="telephone" class="col-12 col-md-6">
+                        <input type="number" id="telephone" class="form-input" placeholder="Telephone*" required>
+                    </label>
+                    <label for="website" class="col-12 col-md-6">
+                        <input type="text" id="website" class="form-input" placeholder="Website">
+                    </label>
+                    <label for="message" class="col-12">
+                        <textarea name="Message" id="message" class="form-textarea" cols="30" rows="10"
+                                  placeholder="Message"></textarea>
+                    </label>
+                    <label for="submit" class="col-12">
+                        <button type="submit" id="submit" class="section-button footer__section-button">Submit</button>
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="footer-border"></div>
+        <p class="">Copyright © 2015 Atlantida Theme</p>
+    </div>
+</footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -103,5 +692,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDsJ_Esx7FesVBGto2SXzSpwQujEgz19Y&callback=initMap"
+        async defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
