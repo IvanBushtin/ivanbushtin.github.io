@@ -1,0 +1,24 @@
+.about {
+  padding-top: 250px;
+  color: #60606e; }
+
+.about-list {
+  margin-bottom: 60px; }
+
+.about-header {
+  margin: 20px 0;
+  font: 700 18px "Montserrat", sans-serif;
+  text-transform: uppercase; }
+
+.about-text {
+  display: block;
+  margin-bottom: 10px;
+  color: #999999;
+  font: 400 14px "Open Sans", sans-serif;
+  white-space: nowrap; }
+
+.about-img {
+  width: 100%; }
+  @media (max-width: 767px) {
+    .about-img {
+      margin-top: 30px; } }
